@@ -18,4 +18,18 @@ func main() {
 	}
 
 	fmt.Printf("Result: %s", lib.ChangeLetterCase(input))
+
+	fmt.Print("\nEnter a, b and c (in this exact order) of the quadratic equation (ax^2 + bx + c = 0), to find its roots: ")
+	var a, b, c float64
+	fmt.Scanf("%f", &a)
+	fmt.Scanf("%f", &b)
+	fmt.Scanf("%f", &c)
+
+	x1, x2, err := lib.RootsOfQuadraticEquation(a, b, c)
+
+	if err != nil {
+		fmt.Printf("coundn't find the roots of the quadratic equation: %s\n", err)
+	} else {
+		fmt.Printf("The roots of the quadratic equation are: x = %f, x2 = %f\n", x1, x2)
+	}
 }
