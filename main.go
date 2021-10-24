@@ -22,6 +22,7 @@ func main() {
 	/////////////////////////////////////////////////////////
 
 	fmt.Print("\nEnter a, b and c (in this exact order) of the quadratic equation (ax^2 + bx + c = 0), to find its roots: ")
+
 	var a, b, c float64
 	fmt.Scanf("%f", &a)
 	fmt.Scanf("%f", &b)
@@ -36,5 +37,16 @@ func main() {
 	}
 
 	/////////////////////////////////////////////////////////
+	fmt.Print("\nEnter the length of an UUID to create it: ")
 
+	var length int
+	fmt.Scanf("%d", &length)
+
+	uuid, err := lib.CreateUUID(length)
+
+	if err != nil {
+		fmt.Printf("coundn't create UUID: %s\n", err)
+	} else {
+		fmt.Printf("UUID: %s\n", uuid)
+	}
 }

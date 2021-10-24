@@ -1,4 +1,8 @@
+github.com/aidarkhanov/nanoid/v2 v2.0.5 h1:HLx5RyDuvOZ6YxlhYTxSU8Il+q7xVKmXM62MfSxziN0=
+github.com/aidarkhanov/nanoid/v2 v2.0.5/go.mod h1:YF/U48D1yA3AoGGUdRrCV95J/KJBShvR9TyLqQwdtlI=
 github.com/bazeeko/onelab_homework1_lib v1.0.0 h1:2ilHD//5Yp3GPUp+/rKuPMmZsNwIq849ChzI5R0qot8=
 github.com/bazeeko/onelab_homework1_lib v1.0.0/go.mod h1:iu6q+SWkMmGdbXgpGe/DBHCx1+J6I0y3sFX35rn7oxI=
 github.com/bazeeko/onelab_homework1_lib v1.0.1 h1:mTm3iixn2ZBHeJAWHfbNjWBkarthh9jaXIJFmn/Et8Y=
 github.com/bazeeko/onelab_homework1_lib v1.0.1/go.mod h1:iu6q+SWkMmGdbXgpGe/DBHCx1+J6I0y3sFX35rn7oxI=
+github.com/bazeeko/onelab_homework1_lib v1.0.2 h1:5Ik2Jwcpz9dlErn3W1N658D8AEkQ+iki8iuMFoxmMds=
+github.com/bazeeko/onelab_homework1_lib v1.0.2/go.mod h1:wAEobhm5XL8KzekyxM9edQ+/+5WDp/iBSjEFMvLceFA=
