@@ -19,6 +19,8 @@ func main() {
 
 	fmt.Printf("Result: %s", lib.ChangeLetterCase(input))
 
+	/////////////////////////////////////////////////////////
+
 	fmt.Print("\nEnter a, b and c (in this exact order) of the quadratic equation (ax^2 + bx + c = 0), to find its roots: ")
 	var a, b, c float64
 	fmt.Scanf("%f", &a)
@@ -32,4 +34,7 @@ func main() {
 	} else {
 		fmt.Printf("The roots of the quadratic equation are: x = %f, x2 = %f\n", x1, x2)
 	}
+
+	/////////////////////////////////////////////////////////
+
 }
